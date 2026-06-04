@@ -1,0 +1,30 @@
+{
+  "name": "tarefas-native",
+  "version": "1.0.0",
+  "description": "Aplicativo para gerenciamento de tarefas, usando react native com autenticação e persistência.",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "echo \"Sem infraestrutura de testes configurada\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoRajiv/tarefas-native.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/JoaoRajiv/tarefas-native/issues"
+  },
+  "homepage": "https://github.com/JoaoRajiv/tarefas-native#readme",
+  "dependencies": {
+    "expo": "^56.0.8",
+    "react": "^19.2.7",
+    "react-native": "^0.85.3"
+  }
+}
