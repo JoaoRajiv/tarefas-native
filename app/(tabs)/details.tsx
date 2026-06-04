@@ -1,18 +1,12 @@
 import { Link } from "expo-router";
-import React from "react";
-import { Pressable, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
-export default function Home() {
+export default function DetailsPage() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Meu App Moderno</Text>
-      <Text style={styles.subtitle}>
-        Estrutura inicial pronta e configurada!
-      </Text>
-      <Link href="/details" asChild>
-        <Pressable>
-          <Text style={styles.subtitle}>Ir para Detalhes</Text>
-        </Pressable>
+      <Text style={styles.title}>Detalhes do Item</Text>
+      <Link href="/" asChild>
+        <Text style={styles.subtitle}>Voltar para Home</Text>
       </Link>
     </View>
   );
